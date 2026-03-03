@@ -26,47 +26,49 @@ nav a {
     text-decoration: none;
     color: #1e293b;
     margin-left: 20px;
+    font-weight: 500;
 }
 
 nav a:hover {
     color: #2563eb;
 }
 
-.contact-section {
-    text-align: center;
-    padding: 120px 20px;
-}
-
-.contact-section h1 {
-    font-size: 42px;
-}
-
-.phone-box {
-    margin-top: 40px;
-    background: white;
-    display: inline-block;
-    padding: 30px 50px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-}
-
-.phone-box p {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-.phone-box a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 25px;
-    background: #2563eb;
+.hero {
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
     color: white;
-    text-decoration: none;
-    border-radius: 8px;
+    text-align: center;
+    padding: 100px 20px;
 }
 
-.phone-box a:hover {
-    background: #1e40af;
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.section {
+    padding: 70px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-top: 40px;
+}
+
+.contact-card h2 {
+    margin-top: 0;
+}
+
+.phone-number {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2563eb;
 }
 
 footer {
@@ -74,7 +76,7 @@ footer {
     color: white;
     text-align: center;
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 </style>
 </head>
@@ -88,12 +90,15 @@ footer {
     </div>
 </nav>
 
-<section class="contact-section">
-    <h1>Contact Andrew Does Tech</h1>
-    <div class="phone-box">
-        <p>Call Now:</p>
-        <p><strong>(555) 123-4567</strong></p>
-        <a href="tel:5551234567">Tap to Call</a>
+<section class="hero">
+    <h1>Hire Andrew Today</h1>
+</section>
+
+<section class="section">
+    <div class="contact-card">
+        <h2>Call Now</h2>
+        <p>Get fast, honest software repair without unnecessary upgrades.</p>
+        <div class="phone-number">(555) 123-4567</div>
     </div>
 </section>
 
